@@ -1,0 +1,48 @@
+/* - - - MOBILE - - - */
+@media screen and (min-width: 390px) {
+    body {
+        max-width: 100%;
+        margin: 1rem;
+        background-image: url(/img/front.gif);
+        background-repeat: no-repeat; /*makes it not repeat itself*/
+        background-attachment: fixed; /*covers the whole screen and locks itself in place*/
+        background-size:cover; /*Makes the background image fit to the whole screen*/
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .footer p {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .aboutband {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutband img {
+
+        max-width: 100vh;
+        width: 25vh;
+        max-height: 100vh;
+        height: 25vh;
+    }
+
+}
+
+/* - - - TABLET - - - */
+@media screen and (min-width: 620px) {
+
+}
+
